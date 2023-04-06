@@ -11,7 +11,7 @@ void error(void)
 	unsigned int i = 0;
 	unsigned int j = 0;
 
-	int _err = 7;
+	int _err = 6;
 	const char *str = _err ? "!!! ... error ... !!!" : "!!! ... debug ... !!!" ;
 
 	while (str[j] != '\0') {
